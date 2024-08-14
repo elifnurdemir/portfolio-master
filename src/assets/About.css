@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+* {
+    --sb-track-color: #0e0e0e;
+    --sb-thumb-color: #525252;
+    --sb-size: 13px;
+  
+    scrollbar-color: var(--sb-thumb-color) 
+                     var(--sb-track-color);
+  }
+  
+  body::-webkit-scrollbar {
+    width: var(--sb-size) 
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 2px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 2px;
+    
+    }
+@font-face{
+    font-family: Hermaiona;
+    src: url('./fonts/Hermaiona.ttf');
+}
+
+@font-face{
+    font-family: elifinFontu;
+    src: url('./fonts/Gomawo.ttf');
+}
+
+@font-face{
+    font-family: digitype;
+    src: url('./fonts/digitype-studio-mainlux-light.otf');
+}
+
+
+
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+* {
+   /* font-family: Poppins; */
+   font-family: digitype;
+}
+
+.about-container {
+    background-color: #F8F6F0;
+   
+}
+
+.about-row {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 100px;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+
+.about-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    padding: 100px;
+    gap: 50px;
+    flex-wrap: wrap;
+
+
+}
+
+.about-separator {
+    height: 5px;
+    background-color: #212121;
+    border-radius: 5px;
+
+}
+
+.about-vertical-separator {
+    width: 5px;
+    background-color: #b69d78;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.about-row-part {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-img-tilt {
+    background: url('./media/profile.jpg');
+    background-position: center;
+    background-size: contain; /* Varsayılan arka plan stilini ekleyin */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 20px !important;
+  transform-style: preserve-3d;
+  
+}
+
+
+.inner-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-style: italic;
+    color: white;
+    background: url('./media/profile.png');
+    background-position: center;
+    background-size: contain;
+    border-radius: 20px !important;
+    transform: translateZ(20px) scale(99%);
+    
+}
+
+
+.about-img {
+    height: 360px;
+    width: auto;
+    border-radius: 20px !important;
+    
+    /*
+    -webkit-box-shadow: 0px 0px 59px 0px rgba(8, 5, 8, 1);
+    -moz-box-shadow: 0px 0px 59px 0px rgba(8, 5, 8, 1);
+    box-shadow: 0px 0px 59px 0px rgba(8, 5, 8, 1);
+*/
+}
+
+
+
+@-webkit-keyframes slide-left {
+    0% {
+        -webkit-transform: translateX(-500px);
+        transform: translateX(-500px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-left {
+    0% {
+        -webkit-transform: translateX(-500px);
+        transform: translateX(-500px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+.about-row-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about-row-title {
+    font-size: 64px;
+    font-weight: 100;
+    color: #212121;
+    filter: drop-shadow(0px 0px 10px #212121);
+    -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.about-row-title div {
+    font-size: 36px;
+}
+
+.about-row-description {
+    color: #212121;
+    -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.about-row-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.about-row-button {
+    cursor: pointer;
+    background-color: #212121;
+    color: #F8F6F0;
+    padding: 10px 30px;
+    min-width: 100px;
+    text-align: center;
+    transition: .2s ease;
+    user-select: none;
+    border-radius: 5px;
+
+
+}
+
+.about-row-button:hover {
+    background-color: #8b7d5c;
+    color: #fff;
+}
+
+.about-row-button:active {
+    background-color: #5a513a;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .about-row {
+        padding: 0;
+    }
+
+    .about-row-reverse {
+        padding: 0;
+    }
+}
+
+.about-row-social-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-row-social-button {
+    height: 52px;
+    width: 52px;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    cursor: pointer;
+    user-select: none;
+    transition: .1s ease;
+    border: 2px solid #2e251a;
+
+}
+
+.about-row-social-button a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-row-social-button img {
+    height: 30px;
+    width: 30px;
+    filter: invert(.9)
+}
+
+.about-row-social-button:hover img {
+    filter: invert(98%) sepia(18%) saturate(757%) hue-rotate(296deg) brightness(106%) contrast(94%);
+
+}
+
+.about-row-social-button:hover {
+    transform: scale(110%);
+}
+
+.about-row-social-button:active {
+    transform: scale(99%);
+    background-color: #F8F6F0;
+}
+
+.about-row-social-button:active img {
+    filter: invert(48%) sepia(43%) saturate(270%) hue-rotate(4deg) brightness(93%) contrast(88%);
+
+}

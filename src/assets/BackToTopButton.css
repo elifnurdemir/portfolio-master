@@ -1,0 +1,39 @@
+.back-to-top-button {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    background: #212121;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    /* Ensure it's above the pseudo-elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: get-into-position .5s linear forwards;
+    border-radius: 0px; /* Initial border-radius */
+}
+
+.back-to-top-button img {
+    height: 40px;
+    width: 40px;
+    filter: invert(1);
+
+  
+
+}
+
+
+@keyframes get-into-position {
+    0% {
+        transform: translate(0px);
+        border-radius: 0px;
+    }
+    
+    100% {
+        transform: translate(-20px, -20px);
+        border-radius: 50px;
+    }
+}

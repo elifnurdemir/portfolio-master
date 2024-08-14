@@ -1,0 +1,168 @@
+.projects-container {
+    background-color: #c2bfb7;
+
+
+}
+
+.projects-header {
+    padding: 100px;
+
+}
+
+.projects-header-textarea {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.projects-header-title {
+    font-size: 42px;
+    font-weight: 200;
+
+}
+
+.projects-header-Description {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.projects-separator {
+    width: 100%;
+    height: 20px;
+    background: #c2bfb7;
+    box-shadow: 3px 3px 3px #5f5f5f,
+        -3px -3px 3px #ddd;
+    margin: 10px 0;
+}
+
+.projects-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projects-row {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    width: 100%;
+    gap: 20px;
+}
+
+.reverse-row {
+    flex-direction: row-reverse !important;
+}
+
+
+
+.projects-row-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    gap: 30px;
+    border-radius: 20px;
+    background: #F8F6F0;
+    box-shadow: 5px 5px 3px #888,
+        -5px -5px 3px rgb(255, 255, 255);
+
+}
+
+.text-content {
+    padding: 50px 0;
+    background-color: #212121;
+    color: #F8F6F0;
+
+}
+
+.project-link-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+.project-link {
+    cursor: pointer;
+    background-color: #F8F6F0;
+    color: #594f3a;
+    padding: 10px 30px;
+    min-width: 100px;
+    transition: .2s ease;
+    user-select: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    text-decoration: none;
+
+}
+
+.project-link:hover {
+    background-color: #8b7d5c;
+    color: #fff;
+}
+
+.project-link:active {
+    background-color: #a0926d;
+}
+
+
+
+
+.project-link-img {
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: invert(9%) sepia(12%) saturate(1958%) hue-rotate(353deg) brightness(103%) contrast(86%);
+}
+
+.project-frame {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.project-name {
+    font-size: 64px;
+    text-align: center;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 992px) {
+    .projects-header {
+        padding: 50px;
+
+    }
+
+    .projects-row {
+        flex-direction: column !important;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .projects-row-side {
+        width: 80%;
+    }
+
+    .project-link-container {
+        flex-direction: column;
+    }
+
+    .project-subtitle {
+        margin: 10px;
+    }
+}

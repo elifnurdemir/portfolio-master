@@ -1,0 +1,81 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F0D2B6;
+  background-image: url('./media/ooo.jpg');
+}
+
+.login-wrapper {
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #7e705d49;
+  padding: 50px;
+  border-radius: 20px !important;
+  color: #F0D2B6;
+  font-size: 26px;
+  width: calc(100% - 100px);
+  -webkit-box-shadow: 0px 0px 12px 2px rgba(133, 130, 133, 1);
+  -moz-box-shadow: 0px 0px 12px 2px rgba(133, 130, 133, 1);
+  box-shadow: 0px 0px 12px 2px rgba(133, 130, 133, 1);
+  border: 1px solid rgba(0, 0, 0, 0.39);
+}
+
+.login-tilt{
+  border-radius: 20px !important;
+  overflow: hidden;
+}
+
+.login-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #594f3a;
+  ;
+}
+
+.login-input-wrapper input {
+  padding: 10px;
+  outline: none;
+  border-radius: 100px;
+  border: 1px solid #594f3a;
+  background: none;
+  color: #594f3a;
+  font-size: 24px;
+}
+.login-input-button {
+  color: #F0D2B6;
+  width: calc(100% -20px);
+  padding: 10px;
+  border-radius: 10px;
+  border-radius: 50px;
+  background: #594f3a;
+  text-align: center;
+  cursor: pointer;
+
+
+}
+
+.login-input-button:hover {
+  background: #F0D2B6;
+  color: #594f3a;
+  -webkit-box-shadow: 0px 0px 12px 2px rgba(133, 130, 133, 1);
+  -moz-box-shadow: 0px 0px 12px 2px rgba(133, 130, 133, 1);
+  box-shadow: 0px 0px 12px 2px rgba(133, 130, 133, 1);
+
+}
+
+.login-input-button:active {
+  background: #F0D2B6;
+  /* Active durumunda arka plan rengini değiştirme */
+}
+
+
+.login-error-message {
+  color: #594f3a;
+  text-align: center;
+  font-weight: 600;
+}

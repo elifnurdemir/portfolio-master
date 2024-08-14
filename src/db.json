@@ -1,0 +1,67 @@
+{
+  "blogItems": [
+    {
+      "id": "0",
+      "image": "https://w.wallhaven.cc/full/4d/wallhaven-4dolqj.png",
+      "color": "#acd546",
+      "title": "Bilgisayarların Hayati Önemi",
+      "description": "Bilgisayarlar, geçmişten günümüze büyük bir evrim geçirdi. İlk bilgisayarlar sadece temel hesaplamaları yapabilen devasa makinelerdi, ancak bugün küçük, taşınabilir ve güçlü cihazlar haline geldiler. Bu evrim, teknolojinin hızlı ilerlemesi ve inovasyonuyla mümkün oldu.",
+      "paragraphs": [
+        {
+          "title": "Bilgisayarların Rolü",
+          "paragraph": "Bilgisayarlar, modern dünyada hayati bir öneme sahiptir. Endüstride, eğitimde ve günlük yaşamın birçok alanında kullanılırlar. Bilgisayar teknolojisi, iş süreçlerini hızlandırabilir, verimliliği artırabilir ve iletişimi kolaylaştırabilir. Ayrıca, bilgisayarlar sayesinde dünya genelinde bilgiye hızlı erişim mümkündür.",
+          "image": "https://images.pexels.com/photos/585752/pexels-photo-585752.jpeg"
+        },
+        {
+          "motto": "Dunyayi ele gecirecekler",
+          "title": "Teknolojinin Evrimi",
+          "paragraph": "Bilgisayar teknolojisi zaman içinde büyük bir evrim geçirdi. İlk bilgisayarlar sadece temel hesaplamaları yapabilen devasa makinelerdi, ancak günümüzde küçük, taşınabilir ve güçlü cihazlara dönüştüler. Bu evrim, teknolojik inovasyon ve gelişmelerin bir sonucudur.",
+          "image": "https://www.komando.com/wp-content/uploads/2018/11/dreamstime_m_87808373.jpg",
+          "mottoBackground": "https://w.wallhaven.cc/full/3k/wallhaven-3kq73v.jpg"
+        },
+        {
+          "motto": "Kara Tren Gecikiiir Belki Hic Gelmeeeez",
+          "title": "Teknolojinin Evrimi",
+          "paragraph": "Bilgisayar teknolojisi zaman içinde büyük bir evrim geçirdi. İlk bilgisayarlar sadece temel hesaplamaları yapabilen devasa makinelerdi, ancak günümüzde küçük, taşınabilir ve güçlü cihazlara dönüştüler. Bu evrim, teknolojik inovasyon ve gelişmelerin bir sonucudur.",
+          "image": "https://images.pexels.com/photos/115655/pexels-photo-115655.jpeg",
+          "mottoBackground": "https://w.wallhaven.cc/full/4d/wallhaven-4dzk5g.jpg"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "image": "https://w.wallhaven.cc/full/n6/wallhaven-n6mq8l.jpg",
+      "color": "#acd546",
+      "title": "Bilgisayarların Evrimi",
+      "description": "Bilgisayarlar, geçmişten günümüze büyük bir evrim geçirdi. İlk bilgisayarlar sadece temel hesaplamaları yapabilen devasa makinelerdi, ancak bugün küçük, taşınabilir ve güçlü cihazlar haline geldiler. Bu evrim, teknolojinin hızlı ilerlemesi ve inovasyonuyla mümkün oldu.",
+      "paragraphs": [
+        {
+          "title": "Yapay Zeka ve Gelecek",
+          "paragraph": "Yapay zeka, bilgisayar bilimlerinde önemli bir alanı temsil eder ve gelecekte hayatımızın birçok yönünü etkileyebilir. Otomasyon, sağlık, ulaşım ve daha birçok sektörde yapay zeka uygulamaları beklenenin ötesinde bir dönüşüm sağlayabilir. Ancak bu teknolojinin etik ve güvenlik konularına dair endişeler de beraberinde getiriyor.",
+          "image": "https://picsum.photos/1800/900"
+        },
+        {
+          "motto": "Sanal Gerçeklik Deneyimi",
+          "title": "Sanal Gerçeklik",
+          "paragraph": "Sanal gerçeklik, bilgisayar teknolojisinin bir ürünü olarak gerçek dünyayı simüle etmek amacıyla kullanılan bir teknoloji türüdür. Oyun endüstrisinden eğitim alanına kadar birçok alanda kullanılan sanal gerçeklik, kullanıcılarına etkileyici ve immersif deneyimler sunar.",
+          "image": "https://images.pexels.com/photos/409016/pexels-photo-409016.jpeg",
+          "mottoBackground": "https://picsum.photos/1900/1080"
+        },
+        {
+          "motto": "Siber Güvenlik Önemi",
+          "title": "Siber Güvenlik",
+          "paragraph": "Bilgisayar sistemlerinin artan kullanımıyla birlikte siber güvenlik, önemli bir konu haline gelmiştir. Veri sızıntıları, fidye yazılımları ve diğer siber saldırılar, bireyleri, kurumları ve devletleri etkileyebilir. Güvenliğin sağlanması için sürekli olarak yeni çözümler ve stratejiler geliştirilmelidir.",
+          "image": "https://picsum.photos/1920/1080",
+          "mottoBackground": "https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg"
+        },
+        {
+          "motto": "Neapion??",
+          "mottoBackground": "https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg",
+          "title": "Veri Madenciliği ve Analitik",
+          "paragraph": "Veri madenciliği ve analitik, büyük veri setlerinden anlamlı bilgiler elde etme süreçlerini ifade eder. İşletmeler ve araştırmacılar, bu teknikleri kullanarak trendleri belirleyebilir, kararlarını destekleyebilir ve stratejik planlamalarını optimize edebilirler. Ancak, bu süreçlerde veri gizliliği ve etik sorunlar dikkate alınmalıdır.",
+          "image": "https://images.pexels.com/photos/45853/grey-crowned-crane-bird-crane-animal-45853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+      ]
+    }
+  ]
+}
